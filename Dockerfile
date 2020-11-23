@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 ARG VERSION=3.7.4
 RUN apt update && \
        apt install -y wget && \
